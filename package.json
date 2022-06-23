@@ -1,0 +1,27 @@
+{
+  "name": "webserver",
+  "version": "1.0.0",
+  "description": "learning webserver using node js",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShewinVega/webServer.git"
+  },
+  "keywords": [
+    "webserver",
+    "learning",
+    "node",
+    "project",
+    "hbs",
+    "express"
+  ],
+  "author": "Edwin Vega",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShewinVega/webServer/issues"
+  },
+  "homepage": "https://github.com/ShewinVega/webServer#readme"
+}
