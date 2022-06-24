@@ -12,7 +12,7 @@ app.set("view engine", "hbs");
 //Servir contenido Estatico
 app.use(express.static("public"));
 
-app.get("/", (req, res) => {
+/* app.get("/", (req, res) => {
   res.render("home", {
     name: "Edwin Vega",
     title: "Node Course",
@@ -31,10 +31,10 @@ app.get("/elements", (req, res) => {
     name: "Edwin Vega",
     title: "Node Course",
   });
-});
+}); */
 
 app.get("*", (req, res) => {
-  res.sendFile(__dirname + "/public/404.html");
+  res.sendFile(__dirname + "/public/index.html");
 });
 
 app.listen(port, () => {
